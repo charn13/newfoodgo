@@ -13,7 +13,7 @@ const Login = () => {
   const handleSumbmit = async(e)=>{
     console.log("Json")
     e.preventDefault();
-    const response =await fetch("https://gofood-1-pmft.onrender.com/api/loginuser",{
+    const response =await fetch("https://newfoodgo.onrender.com/api/loginuser",{
       method: 'POST',
     headers: {
       'Content-Type': 'application/json',
