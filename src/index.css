@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.carousel{
+    max-height:500px;
+}
+.cimg{
+    max-height: 500px;
+}
