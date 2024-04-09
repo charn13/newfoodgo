@@ -1,18 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useEffect, useState } from 'react';
 import { Header,Footer ,Card,Carousel } from '../components';
 
@@ -22,7 +9,7 @@ export default function Home() {
   const [search, setSearch] = useState('');
 
   const loadFoodItems = async () => {
-    let response = await fetch("https://gofood-1-pmft.onrender.com/api/foodData", {
+    let response = await fetch("https://newfoodgo.onrender.com/api/foodData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
